@@ -21,7 +21,7 @@ Certifique-se que o arquivo json está parametrizado em 'Copiar para Diretório 
 
 ![image](https://github.com/user-attachments/assets/f5632c3f-fcc6-4842-961e-68f221c038fd)
 
-Se não por esse método, garanta que está parametrizado no 'C:\...\...\...\FaturamentoDistribuidora' esteja com o seguinte comando:
+Se não por esse método, garanta que está parametrizado no 'C:\...\FaturamentoDistribuidora' esteja com o seguinte comando:
 
   ```
   <ItemGroup>
@@ -33,6 +33,10 @@ Se não por esse método, garanta que está parametrizado no 'C:\...\...\...\Fat
 
   ![image](https://github.com/user-attachments/assets/1842c3a1-222b-4a5c-93b3-3fb68476813b)
 
+
+Obs: Altere para o nome do arquivo que desejar ler, depois de adicioná-lo à pasta do projeto. Atente-se que o nome das variáreis no arquivo JSON devem ser **idênticas** às dos atributos das classes do C#. No caso: Faturamento, Data e Valor.
+
+![image](https://github.com/user-attachments/assets/dd64be66-dc0b-49f7-835d-ddc0393cae14)
 
 Após abrir a pasta disponilizada nesse respositório no Visual Studio 2022 ou no Visual Studio Code, abra o arquivo Program.cs na IDE e aperte F5, ou interaja com o play como mostra a imagem abaixo:
 
