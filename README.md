@@ -23,13 +23,13 @@ Certifique-se que o arquivo json está parametrizado em 'Copiar para Diretório 
 
 Se não por esse método, garanta que está parametrizado no 'C:\...\...\...\FaturamentoDistribuidora' esteja com o seguinte comando:
 
-  /*
+  '''
   <ItemGroup>
     <None Update="Faturamento052024.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  */
+  '''
   ![image](https://github.com/user-attachments/assets/1842c3a1-222b-4a5c-93b3-3fb68476813b)
 
 
